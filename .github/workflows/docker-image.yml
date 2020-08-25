@@ -17,4 +17,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: sureshrajas/alpine-ftp-server
-          tags: "${{ env.RELEASE_VERSION }}"
+          tags: "latest,1.0.0"
