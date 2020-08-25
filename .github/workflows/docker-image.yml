@@ -16,5 +16,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: sureshrajas/alpine-ftp-server:${{ env.RELEASE_VERSION }}
+          repository: sureshrajas/alpine-ftp-server:1.0.0
           tag_with_ref: true
